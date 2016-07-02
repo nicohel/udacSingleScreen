@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexs.emptybowlsinglescreen.MainActivity">
+
+    <ImageView
+        android:id="@+id/mainPic"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/emptybowls"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainPic"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#545454"
+            android:textSize="24dp"
+            android:text="Empty Bowl Noodles"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#696969"
+            android:textSize="14dp"
+            android:text="An elevated noodle experience straight from the culinary paradise of Northern Thailand."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="#696969"
+            android:textSize="14dp"
+            android:text="38 W Victoria St #109\nSanta Barbara, CA 93101"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="#696969"
+            android:textSize="14sp"
+            android:text="Hours of Operation:\nMonday - Saturday\n11am - 9pm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="#0000FF"
+            android:textSize="14sp"
+            android:text="(805)335-2426"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="#0000FF"
+            android:textSize="14sp"
+            android:text="http://www.emptybowl.com"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>
